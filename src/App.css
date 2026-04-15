@@ -1,0 +1,209 @@
+
+/* header 스타일 */
+.header{
+  margin-bottom: 20px;
+  background-color: #333;
+  height: 50px;
+}
+.header a{
+  color:orange;
+  margin: 0 16px;
+  line-height: 50px;
+  text-decoration: none;
+}
+.header a:hover { color:#e7e7e7; }
+
+.header-user-info{
+  display: inline-flex;
+  color: rgb(249,249,146);
+  align-items: center;
+  gap: 12px;
+  margin-left: 20px;
+}
+.header .logout-btn {
+  margin-top: 4px;
+  padding: 6px 12px;
+  border:1px solid #ff9f1c;
+  border-radius: 4px;
+  background-color: transparent;
+  color:#ff9f1c;
+  cursor: pointer;
+}
+.header .logout-btn:hover {
+    background-color: #ff9f1c;
+    color:#333
+}
+
+/* 상품 목록 페이지 스타일 */
+.product-list{
+  width: 80%;
+  margin: 20px auto;
+}
+.product-list h2{margin-bottom: 20px;}
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+.card{
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+.product-image{width: 100%;height: 200px;}
+.card-title{
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+}
+.card-text{
+  font-size: 16px;
+  color: #555;
+}
+
+/* 상품 상세 페이지 스타일 */
+.produst-info {
+  width: 80%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+}
+.produst-info h2 {
+  margin-bottom: 24px;
+  font-size: 28px;
+  color:#222;
+  border-bottom: 2px solid #e91e63;
+  padding-bottom: 12px;
+}
+.product-info .product-detail {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+}
+.product-info .product-image{
+  width: 320px;
+  height: 320px;
+  border-radius: 10px;
+  padding: 16px;
+  border: 1px solid #eee;
+}
+.product-info .product-content{
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.product-info .product-content .price {
+  font-size: 24px;
+  color:#e91e63;
+  font-weight: 700;
+  margin-top: 8px;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+.add-product {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.add-product h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color:#333;
+}
+.add-product form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.add-product form label {
+  font-size: 16px;
+  color:#555;
+  width:80px;
+  display: inline-block;
+}
+.add-product form input { 
+  width: calc(100% - 100px);
+  padding: 8px;
+  border:1px solid #ccc;
+  border-radius: 4px;
+}
+.add-product form input[type="file"] ,
+.add-product form input[type="file"]::file-selector-button {
+  cursor: pointer;
+}
+.add-product form button {
+  padding: 8px;
+  background-color: #e91e63;
+  color:#fff;
+  border: 1px solid #e91e63;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.add-product form button:hover {
+  background-color: #b6003d;
+}
+
+
+/* 로그인 스타일 */
+.signin {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.signin h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color:#333;
+}
+.signin form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.signin form label {
+  font-size: 16px;
+  color:#555;
+  width:80px;
+  display: inline-block;
+}
+.signin form input { 
+  width: calc(100% - 100px);
+  padding: 8px;
+  border:1px solid #ccc;
+  border-radius: 4px;
+}
+.signin form input[type="file"] ,
+.signin form input[type="file"]::file-selector-button {
+  cursor: pointer;
+}
+.signin form button {
+  padding: 8px;
+  background-color: rgb(19,201,19);
+  color:#fff;
+  border: 1px solid rgb(19,201,19);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.signin form button:hover {
+  background-color: rgb(0, 112, 0);
+}
+.signup-link {
+  margin-top: 12px;
+}
