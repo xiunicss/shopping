@@ -29,7 +29,7 @@ function App() {
   return (
     <>
       <section className="app">
-        <BrowserRouter>
+        <BrowserRouter basename='/shopping/'>
           <Header 
             isLoggedIn={isLoggedIn}
             userId={userId}
